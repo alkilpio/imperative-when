@@ -1,3 +1,5 @@
+def DEBUG = true
+
 def shdbg(command) {
     if (DEBUG == 'true') {
         sh command
